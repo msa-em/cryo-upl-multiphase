@@ -5,7 +5,7 @@ project:
   title: 'Unveiling Interfaces and Structures: Cryogenic Laser Ablation and Plasma Focused Ion Beam Techniques for Complex and Beam-Sensitive Systems'
   short_title: Cryo-UPL for Multiphase Materials
   keywords: []
-  github: https://github.com/msking9/large-fov-multiphase-materials
+  github: https://github.com/msa-em/cryo-upl-multiphase
   authors:
   - name: Renae Gannon
     corresponding: true
