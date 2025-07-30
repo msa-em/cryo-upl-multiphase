@@ -1,0 +1,22 @@
+name: large-fov-multiphase-materials
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - pyvista
+  - nglview
+  - h5py
+  - imageio
+  - av # instead of imageio-ffmpeg
+  - ipywidgets
+  - ipympl
+  - jupyterlab
+  - jupyterlab-myst
+  - trame
+  - trame-vtk
+  - trame-vuetify
+  - 'nodejs>=20,<21'
+  - mystmd

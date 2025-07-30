@@ -1,0 +1,9 @@
+numpy
+tifffile
+k3d
+jupyterlab
+jupyterlab-myst
+ipywidgets
+matplotlib
+matplotlib_scalebar
+imagecodecs

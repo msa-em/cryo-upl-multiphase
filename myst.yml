@@ -1,0 +1,92 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: msa-em-cryo-upl-multiphase-1
+  title: 'Unveiling Interfaces and Structures: Cryogenic Laser Ablation and Plasma Focused Ion Beam Techniques for Complex and Beam-Sensitive Systems'
+  short_title: Cryo-UPL for Multiphase Materials
+  keywords: []
+  github: https://github.com/msking9/large-fov-multiphase-materials
+  authors:
+  - name: Renae Gannon
+    corresponding: true
+    email: renae.gannon@nrel.gov
+    orcid: 0000-0002-8937-3262
+    affiliations:
+      - id: nrel
+        institution: National Renewable Energy Laboratory
+        ror: "036266993"
+        address: Golden, Colorado, USA 80401 
+        department: Chemistry and Computational Sciences
+      - id: thermo
+        institution: Thermo Fisher Scientific
+        department: 
+        address: Hillsboro, Oregon, USA 97124 
+        ror: 03x1ewr52
+  - name: Madison King
+    email: msk235@nau.edu
+    orcid: 0009-0003-0958-1796
+    affiliations: 
+      - id: NAU
+        institution: Northern Arizona University
+        ror: 0272j5188 
+        address: Flagstaff, Arizona, USA 86011 
+  - name: Laura Merrill
+    orcid: 0000-0001-7673-4519
+    affiliations: 
+      - id: sandia
+        institution: Sandia National Laboratories
+        ror: 01apwpt12
+        department: Nanoscale Sciences
+        address: Albuquerque, New Mexico, USA 87123
+  - name: Katharine L. Harrison
+    orcid: 0000-0002-5807-6919
+    affiliations: [nrel]
+  - name: Katherine Jungjohann
+    email: Katherine.Jungjohann@nrel.gov
+    orcid: 0000-0002-8132-1230
+    affiliations: [nrel]
+  - name: Steven Randolph
+    email: randolphsj@ornl.gov
+    orcid: 0000-0001-9707-4337
+    affiliations: 
+      - id: ornl
+        institution: Oak Ridge National Laboratory
+        department: Center for Nanophase Materials Sciences
+        address: Oak Ridge, Tennessee, USA 37830 
+        ror: 01qz5mb56
+      - id: thermo
+  abbreviations:
+    FOV: field-of-view
+    ROI: Region-of-Interest
+    FIB: Focused Ion Beam
+    PFIB: Plasma Focsued Ion Beam
+    UPL: Ultrafast Pulsed Laser
+    SEM: Scanning Electron Microscopy
+    SEI: Solid Electrolyte Interphase
+    LIPSS: Laser-Induced Periodic Surface Structures
+    MicroCT: Microcomputed Tomography
+    TEM: Transmission Eleectron Microscopy
+    PPP: Pulses-per-Pixel
+    FSM: Fast Scanning Mirror
+    EDS: Energy Dispersive X-ray Spetroscopy
+    EBSD: Electron Backsactter Diffraction
+    LN_2: Liquid Nitrogen
+    LSFL: Low-Spatial Frequency Laser-Induced Periodic Surface Structures
+    HSFL: High-Spatial Frequency Laser-Induced Periodic Surface Structures
+
+
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  requirements:
+      - 'environment.yml'
+  resources:
+    - 'notebooks/**/*'
+  exports:
+    - format: meca
+  banner: banner.png
+  exclude:
+    - README.md
+site:
+  template: book-theme
