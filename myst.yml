@@ -4,8 +4,28 @@ project:
   id: msa-em-cryo-upl-multiphase-1
   title: 'Unveiling Interfaces and Structures: Cryogenic Laser Ablation and Plasma Focused Ion Beam Techniques for Complex and Beam-Sensitive Systems'
   short_title: Cryo-UPL for Multiphase Materials
-  keywords: []
+  keywords:
+    - focused ion beam
+    - cryo-laser plasma FIB
+    - multiphase materials
   github: https://github.com/msa-em/cryo-upl-multiphase
+  jupyter: true
+  # jupyter:
+    # server:
+    #   url: 'http://localhost:8888'
+    #   token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  requirements:
+    - 'Dockerfile'
+    - requirements.in
+  resources:
+    - 'notebooks/**/*'
+  references:
+    mystmd: https://mystmd.org/guide
+  exports:
+    - format: meca
+  exclude:
+    - README.md
+  banner: banner.png
   authors:
   - name: Renae Gannon
     corresponding: true
@@ -73,20 +93,5 @@ project:
     LN_2: Liquid Nitrogen
     LSFL: Low-Spatial Frequency Laser-Induced Periodic Surface Structures
     HSFL: High-Spatial Frequency Laser-Induced Periodic Surface Structures
-
-  jupyter: true
-  # jupyter:
-    # server:
-    #   url: 'http://localhost:8888'
-    #   token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
-  requirements:
-      - 'environment.yml'
-  resources:
-    - 'notebooks/**/*'
-  exports:
-    - format: meca
-  banner: banner.png
-  exclude:
-    - README.md
 site:
   template: book-theme
