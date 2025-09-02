@@ -22,14 +22,14 @@ Because different materials will have different reflectivity for a given polariz
 
 :::{figure} ./figures/Pol-comparison-labeled.png
 :name: Pol-comparison-labeled
-Effect of polarization on wavelength-dependent LIPSS in coin cell ROI observed via Cryo-SEM BSE. A coin cell region with Li metal, SEI/electrolyte, and LiH domains polished with a) p-polarization (515nm) and b) s-polarization (515 nm). A coin cell region with Li metal, SEI/electrolyte, and polymer separator polished with c) p-polarization (1030 nm) and d) circular polarization (1030 nm).
+Effect of polarization on wavelength-dependent LIPSS in cycled coin cell ROI observed via Cryo-SEM BSE. A coin cell region with Li metal, SEI/electrolyte, and LiH domains polished with a) p-polarization (515nm) and b) s-polarization (515 nm). A coin cell region with Li metal, SEI/electrolyte, and polymer separator polished with c) p-polarization (1030 nm) and d) circular polarization (1030 nm).
 :::
 
 While LIPSS are most often disadvantageous for the resolution of fine details, the ability to more cleanly differentiate different materials (e.g. Li metal from LiH domains; Li metal embedded in SEI) based on LIPSS presence and periodicity can be useful. For example, @Li-deposits shows a sample polished at a 515 nm wavelength; within the SEI layer, it is easy to differentiate the Li domains (highlighted in blue) from voids and other textures embedded the SEI, which is extremely beneficial for segmentation purposes.  
 
 :::{figure} ./figures/Li-deposits-test.png
 :name: Li-deposits
-Cryo-SEM BSE images of a coin cell battery with Li metal domains in SEI/electrolyte. The region highlighted in red on the right image is shown on the left. Li metal domains are highlighted with blue on the right.
+Cryo-SEM BSE images of a cycled coin cell battery with Li metal domains in SEI/electrolyte. The region highlighted in red on the right image is shown on the left. Li metal domains are highlighted with blue on the right.
 :::
 
 (laser_workflow)=
