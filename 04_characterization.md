@@ -7,7 +7,7 @@ numbering:
 (characterzation)=
 # Characterization Approaches for Large 3D Volumes
 
-To better understand the mechanisms that drive the behavior of complex multiphase materials systems (including coin cells whose heterogeneity is increased over the course of battery cycling [@10.1021/acsenergylett.1c00509]), it is useful to analyze both representative areas and volumes. Previously, MicroCT and NanoCT have been used to non-destructively study 3D structures within partial and complete battery stacks [@10.1038/s41467-020-15811-x]. We were able to obtain high-quality cross-sections of the coin cells, with vastly improved clarity in the ROI compared to MicroCT (@UPL_SEM , @MicroCT ). @UPL_SEM (a) shows a sample after UPL ablation was performed to remove bulk material (~ 1 x 0.9 x 0.7 mm), including the steel casing), around the cell ROI which is outlined in red. We can clearly resolve interfaces between the casing, copper current collectors, electrolyte, solid electrolyte interphase (SEI), polymer separator, and lithium metal. @UPL_SEM (b) shows higher magnification for the ROI, revealing the cell morphology. For clarity, we have applied false color to the image, clearly distinguishing lithium metal deposits embedded in the electrolyte + SEI layer. @MIcroCT (a) shows MicroCT data collected on a Zeiss 560 Nano Focus, which shows the full coin cell assembly (spacers, casing, etc.); @MicroCT (d) shows a magnification of the ROI (current collectors, Li, electrolyte/SEI, separator) with extremely low-resolution. To emphasize the comparatively high quality of this image, we would like to highlight that all components in the ROI are distinguishable in the UPL-prepared cross-section SEM image (@UPL_SEM (b)) whereas no details are distinguishable in the equivalent ROI by MicroCT (Figure 2d). Based on EDS , BSE image contrast, and LIPSS that differ between SEI vs. Li (discussed in @laser_param ) deposits of Li metal could be identified in the top electrolyte + SEI layer. However, as shown in @UPL_SEM, MicroCT of a coin cell can show the complete stack, but cannot resolve or differentiate key components in the ROI (e.g. electrolyte/SEI, separator, and Li metal) due to the low X-ray transparency of the stainless-steel casing, which increases the number of imaging artifacts. A recently demonstrated transparency window offers a promising avenue for future enhancements in MicroCT resolution but, at present, this technique is still poorly suited for resolving stack components in an assembled coin cell because the window can compromise the electrochemical properties [@10.3390/ma11112157].
+To better understand the mechanisms that drive the behavior of complex multiphase materials systems [including coin cells whose heterogeneity is increased over the course of battery cycling [@10.1021/acsenergylett.1c00509]], it is useful to analyze both representative areas and volumes. Previously, MicroCT and NanoCT have been used to non-destructively study 3D structures within partial and complete battery stacks [@10.1038/s41467-020-15811-x]. We were able to obtain high-quality cross-sections of the coin cells, with vastly improved clarity in the ROI compared to MicroCT (@UPL_SEM , @MicroCT ). @UPL_SEM (a) shows a sample after UPL ablation was performed to remove bulk material (~1 x 0.9 x 0.7 mm), including the steel casing, around the cell ROI which is outlined in red. We can clearly resolve interfaces between the casing, copper current collectors, electrolyte, solid electrolyte interphase (SEI), polymer separator, and lithium metal. @UPL_SEM (b) shows higher magnification for the ROI, revealing the cell morphology. For clarity, we have applied false color to the image, clearly distinguishing lithium metal deposits embedded in the electrolyte + SEI layer. @MIcroCT (a) shows MicroCT data collected on a Zeiss 560 Nano Focus, which shows the full coin cell assembly (spacers, casing, etc.); @MicroCT (d) shows a magnification of the ROI (current collectors, Li, electrolyte/SEI, separator) with extremely low-resolution. To emphasize the comparatively high quality of this image, we would like to highlight that all components in the ROI are distinguishable in the UPL-prepared cross-section SEM image [@UPL_SEM (b)] whereas no details are distinguishable in the equivalent ROI by MicroCT [@MicroCT (b)]. Based on EDS , BSE image contrast, and LIPSS that differ between SEI vs. Li (discussed in @laser_param ) deposits of Li metal could be identified in the top electrolyte + SEI layer. However, as shown in @UPL_SEM, MicroCT of a coin cell can show the complete stack, but cannot resolve or differentiate key components in the ROI (e.g. electrolyte/SEI, separator, and Li metal) due to the low X-ray transparency of the stainless-steel casing, which increases the number of imaging artifacts. A recently demonstrated transparency window offers a promising avenue for future enhancements in MicroCT resolution but, at present, this technique is still poorly suited for resolving stack components in an assembled coin cell because the window can compromise the electrochemical properties [@10.3390/ma11112157].
 
 :::::{tab-set}
 
@@ -17,7 +17,7 @@ To better understand the mechanisms that drive the behavior of complex multiphas
 :::{figure} ./figures/cryoUPL_Large FOV.png
 :name: UPL_SEM
 
-*Comparison of UPL-prepared SEM and MicroCT characterizations on the same representative ROI in identically prepared half coin cells with concentrated basalt electrolyte cycled to 100.5 cycles at low rate.* a) Overview of a cryo-SEM secondary electron cross-section image collected at 5 kV, 0.69 nA of a ~ 1 x 0.9 x 0.7 mm region in a coin cell battery removed with UPL ablation, where the ROI is marked with a red box. b) Higher magnification cryo-SEM backscatter electron (BSE) image of the ROI collected at 2 kV, 0.69 nA.
+*Comparison of UPL-prepared SEM and MicroCT characterizations on the same representative ROI in identically prepared half coin cells with concentrated bisalt electrolyte cycled to 100.5 cycles at low rate.* a) Overview of a cryo-SEM secondary electron cross-section image collected at 5 kV, 0.69 nA of a ~1 x 0.9 x 0.7 mm region in a coin cell battery removed with UPL ablation, where the ROI is marked with a red box. b) Higher magnification cryo-SEM backscatter electron (BSE) image of the ROI collected at 2 kV, 0.69 nA.
 :::
 
 ::::
@@ -27,7 +27,7 @@ To better understand the mechanisms that drive the behavior of complex multiphas
 
 :::{figure} ./figures/microCT.png
 :name: MicroCT
-*Comparison of UPL-prepared SEM and MicroCT characterizations on the same representative ROI in identically prepared half coin cells with concentrated basalt electrolyte cycled to 100.5 cycles at low rate.* a) MicroCT scan of full coin cell assembly. b) Virtual slice from the ROI region marked with red box in a).
+*Comparison of UPL-prepared SEM and MicroCT characterizations on the same representative ROI in identically prepared half coin cells with concentrated basalt electrolyte cycled to 100.5 cycles at low rate.* a) MicroCT scan of full coin cell assembly. b) Virtual slice from the ROI region marked with red box in a), inset in the bottom right shows top down scan of the coin cell.
 :::
 
 ::::
@@ -39,7 +39,7 @@ Fortunately, the Laser PFIB can be used to collect high-quality automated ‘sli
 :::{figure} #app:3d_volume_render
 :name: volume_render_3d
 :placeholder: ./figures/volume_renderer_placeholder.png
-3D reconstruction of automated laser slice-and-view collection in a coin cell showing segmented Cu (yellow) and Li metal (blue). The polymer separator and liquid electrolyte have been excluded to show disconnected Li metal.
+3D reconstruction of automated laser slice-and-view collection in a coin cell showing segmented Cu (yellow) and Li metal (blue). The polymer separator, SEI, and liquid electrolyte have been excluded to show disconnected Li metal.
 :::
 
 :::::{tab-set}
@@ -50,7 +50,7 @@ Fortunately, the Laser PFIB can be used to collect high-quality automated ‘sli
 :::{figure} #app:2d_volume_slice
 :name: 2d_volume_slice
 :placeholder: ./figures/2D_seg_placeholder.png.png
-2D slice-and-view of automated laser coin cell crosssection showing segmented Cu (yellow) and Li metal (blue). The polymer seporator and liquid electrolyte have been excluded to show disconnected Li metal.
+2D slice-and-view of automated laser coin cell crosssection showing segmented Cu (yellow) and Li metal (blue). The polymer seporator, SEI, and liquid electrolyte have been excluded to show disconnected Li metal.
 :::
 
 ::::
