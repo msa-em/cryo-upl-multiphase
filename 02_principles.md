@@ -13,7 +13,7 @@ We developed the cryo-Laser PFIB workflow for coin cells on a Thermo Fisher Scie
 
 :::{figure} ./figures/Normal_LaserPFIB.png
 :name: Normal_LaserPFIB
-Schematic of pre-tilited sample holder for standard, room-temperture PFIB with integrated UPL work flows.
+Schematic of pre-tilted sample holder for standard, room-temperture PFIB with integrated UPL work flows.
 :::
 
 The integrated UPL has a wide parameter space and enables tunable features, including pulse energy, polarization, wavelength, and repetition rate. Using second harmonic generation, the UPL could operate at 1030 nm or 515 nm, with fast pulse durations (< 300 fs), broad pulse energy ranges (nJ to 59.817 $\mu$J for 1030 nm and 37.489 $\mu$J for 515 nm), and adjustable repetition rates (1 to 60 kHz). By changing the pulse energy and repetition rate, it is possible to tune the average power; in this case, reducing the repetition rate minimized the thermal load to the frozen sample. For example, fs-laser ablation of thermally sensitive samples (e.g., polymers) are likely to incur thermal damage when processed at higher repetition rates [@10.1002/pi.5834]. A motorized objective lens was positioned inside of the chamber, allowing us to change the objective position (typically +/- 1 mm) to focus both laser wavelengths at the eucentric position. To further expand the parameter space, waveplates were added to make it possible to adjust the beam polarization to vertical (P), horizontal (S), or circular.
