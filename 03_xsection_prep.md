@@ -15,7 +15,7 @@ To showcase the importance of wavelength tuning, we contrasted identically prepa
 
 :::{figure} ./figures/LIPSS_515vs1030_labled.png
 :name: LIPSS_515vs1030
-Wavelength-dependent LIPSS variation on coin cell ROI. Cryo-SEM BSE images of an uncycled (pristine) coin cell battery ablated with a) 515 nm and b) 1030 nm.
+Wavelength-dependent LIPSS variation on coin cell ROI. Cryo-SEM backscatter electron (BSE) images of an uncycled (pristine) coin cell battery ablated with a) 515 nm and b) 1030 nm.
 :::
 
 Because different materials will have different reflectivity for a given polarization, tuning the polarization varies both the LIPSS orientation and the cut face angle. Multiple beam paths and waveplates (integrated into laser control software) allow for the laser polarization to be instantaneously changed, which is important because LSFL (and sometimes HSFL) are typically perpendicular to the laser polarization, where the orientation of LIPSS can be rotated according to feature orientation or direction where features are least obscured by LIPSS. To clarify that importance, we studied the effect of polarization on wavelength-dependent LIPSS in identically prepared coin cells. @Pol-comparison-labeled (a) contains a region polished with p-polarized light (515 nm): the Li metal has polarization-perpendicular LSFL ripples, the LiH domians have polarization-perpendicular HSFL ripples, and the SEI/electrolyte have slight textural variation but no observable LIPSS. @Pol-comparison-labeled (b) shows a similar region from the same coin cell polished with s-polarized light (515 nm): the Li metal has generally vertical surface structures, but no ripples; the LiH deposit has HSFL with vertical ripples; and the SEI/electrolyte has no observable LIPSS. @Pol-comparison-labeled (c) and (d) are both taken from the same coin cell [identically prepared to with the coin cell from @Pol-comparison-labeled (a) and (b)] and show a region with Li metal, SEI/electrolyte, and polymer separator. @Pol-comparison-labeled (c) was polished with p-polarized light (1030 nm) and shows LSFL only on the Li metal. @Pol-comparison-labeled (d) was polished with circularly polarized light (1030 nm) and shows LSFL as diagonal ripples only on the Li metal, but also shows slight variations in texture to the SEI/electrolyte and polymer separator.
@@ -55,7 +55,7 @@ To optimize cut quality and reduce polishing time spent on sample areas outside 
 
 :::{figure} ./figures/pattern_regions.png
 :name: pattern_regions
-Cryo-SEM SE images of a coin cell battery at each UPL patterning step, where blue highlighted regions show the UPL patterned region.
+Cryo-SEM secondary electron (SE) images of a coin cell battery at each UPL patterning step, where blue highlighted regions show the UPL patterned region.
 :::
 
  (PFIB_polish)=
