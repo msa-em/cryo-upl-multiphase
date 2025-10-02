@@ -39,7 +39,7 @@ Fortunately, the Laser PFIB can be used to collect high-quality automated ‘sli
 :::{figure} #app:3d_volume_render
 :name: volume_render_3d
 :placeholder: ./figures/3d_render_placeholder.PNG
-3D reconstruction of automated laser slice-and-view collection in a coin cell showing segmented Cu (yellow) and Li metal (blue). The polymer separator, SEI, and liquid electrolyte have been excluded to show disconnected Li metal.
+3D reconstruction of automated laser slice-and-view collection in a coin cell showing segmented Cu (yellow) and Li metal (blue). The polymer separator, SEI, and liquid electrolyte have been excluded to show disconnected Li metal. Total volume 316 x 281 x 152 $\mu$m.
 :::
 
 :::::{tab-set}
