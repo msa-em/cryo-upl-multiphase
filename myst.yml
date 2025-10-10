@@ -25,7 +25,7 @@ project:
     - format: meca
   exclude:
     - README.md
-  banner: banner.png
+  banner: ./figures/3D_rec.gif
   authors:
   - name: Renae Gannon
     corresponding: true
