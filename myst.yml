@@ -26,7 +26,7 @@ project:
   exclude:
     - README.md
   banner: banner.png
-  thumbnail: ./figures/3Dthumbnail.gif
+  thumbnail: ./figures/thumbnail.webm
   authors:
   - name: Renae Gannon
     corresponding: true
